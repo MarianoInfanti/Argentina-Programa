@@ -1,0 +1,18 @@
+{
+    "curso":{
+    "nombre": "Argentina Programa",
+    "parte": "#YoProgramo"
+    },
+
+    "contacto":{
+        "whats":"https://wa.me/541131506376",
+        "numero":"+54 11 3150-6376",
+        "cuenta":"https://www.instagram.com/marian.infanti/",
+        "insta":"@marian.infanti",
+        "gmail":"mailto:marianrayo10@gmail.com",
+        "mail":"marianrayo10@gmail.com",
+        "git":"https://github.com/MarianoInfanti"
+    }
+
+
+}
