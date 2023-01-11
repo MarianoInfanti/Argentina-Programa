@@ -1,0 +1,256 @@
+/* You can add global styles to this file, and also import other style files */
+#izquierda{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo{
+    background-color: gray;
+}
+
+.cabeza {
+    background-color: #14213D;
+    width: 96%;
+    border: black 2px solid;
+    text-align: center;
+}
+
+.titulo_1 {
+    font-size: 60px;
+    color: #E5E5E5;
+}
+
+#titulo_2 {
+    font-size: 35px;
+}
+
+.contact{
+    text-decoration: none;
+}
+#escuela{
+    text-decoration: none;
+}
+.con{
+    font-size:medium;
+}
+#contactos{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#seccion{
+    background-color: #FCA311;
+    width: 90%;
+    border: black 2px solid;
+    border-top: none;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.uno {
+    background-color: black;
+    color: white;
+    width: 50%;
+    border: black 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.dos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+
+    border: black 2px solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.contacto {
+    background-color: #E5E5E5;
+    width: 95%;
+    padding: 2%;
+    color: black;
+    border: white 2px solid;
+    padding: 2%;
+}
+
+.tres{
+    font-size: 15px;
+    width: 50%;
+    border: black 2px solid;
+    border-left: none;
+    padding: 4%;
+    margin-bottom: 3%;
+}
+
+#pie{
+    font-size: 15px;
+    background-color: #FCA311;
+    width: 40%;
+    border: black 2px solid;
+    border-top: none;
+    padding: 20px;
+}
+
+.primera{
+    background-color: rgb(126, 209, 109);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 80%;
+    border: 3px skyblue solid;
+    padding: 2%;
+    margin: 8px;
+    background-color: lightgray;
+}
+#mapa{
+    border: 3px black solid;
+}
+#costado{
+    margin-right: 200px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: row;
+}
+
+.area{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.areas{
+    margin: 2%;
+    border: 3px grey solid;
+    background-color: lightgray;
+}
+
+.areas > h1{
+   background-color: rgb(152, 201, 201);
+}
+
+.blanco{
+    height: 10px;
+    background-color: white;
+}
+
+#IEN{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor > h4{
+    color: rgb(96, 202, 202);
+}
+
+
+#bien{
+    color: rgb(255, 255, 255);
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo{
+    width: 100%;
+    height: 100%;
+}
+
+
+#aprendido{
+    background-color:#f8f9fa;
+    width: 48%;
+    border-top: 2px gray solid;
+    margin-bottom: 2%;
+}
+
+.GitHub{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    clip-path: circle(90%);
+    transition: .5s ease-in-out;
+    background-color: rgb(186, 186, 250);
+}
+.GitHub span{
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.GitHub:hover span{
+    color: transparent;
+}
+#Git{
+    text-decoration: none;
+}
+#gato{
+    width: 16px;
+    height: 16px;
+}
+.GitHub:hover #gato{
+    width: 100px;
+    height: 100px;
+    transition: .5s ease-in-out;
+ }
+.icon{
+    position: relative;
+    left: 30px;
+    color: rgb(186, 186, 250);
+}
+.GitHub:hover{
+   clip-path: circle(50% at center);
+}
+.GitHub:hover .icon{
+    color: black;
+ }
+
+    
+@media screen and (max-width: 800px){
+    #main{
+        position: fixed;
+    }
+   #sobre{
+    flex-direction: column;
+   }
+   #mapa{
+    width: 400px;
+   }
+
+   #seccion{
+    flex-direction: column;
+    width: 90%;
+   }
+
+   #aprendido{
+    width: 100%;
+   }
+   #aprendido > h1{
+    font-size: 23px;
+   }
+   
+   .titulo_1{
+    font-size: 30px;
+   }
+   .uno{
+    width: 90%;
+   }
+   .tres{
+    width: 90%;
+    padding: 7%;
+   }
+}

@@ -1,0 +1,35 @@
+<header id="main">
+    <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+        <h1>
+            {{miPortfolio.curso.nombre}}
+            {{miPortfolio.curso.parte}}
+        </h1>
+        <div id="contactos">
+            <h4 class="con">WhatsApp: <a class="contact" href={{miPortfolio.contacto.whats}}>{{miPortfolio.contacto.numero}}</a>
+            </h4>
+            <h4 class="con">Instagram: <a class="contact" href={{miPortfolio.contacto.cuenta}}>{{miPortfolio.contacto.insta}}</a></h4>
+            <h4 class="con">Gmail: <a class="contact" href="{{miPortfolio.contacto.gmail}}">{{miPortfolio.contacto.mail}}</a></h4>
+        </div>
+    </div>
+
+
+<nav id="navegacion" class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mapa">Mi ubicacion</a>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <a class="btn btn-primary" href="#ar" role="button">Mas+</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
